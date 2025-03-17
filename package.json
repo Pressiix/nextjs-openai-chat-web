@@ -1,0 +1,45 @@
+{
+  "name": "treg-crowd-funding-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "launch-web": "sleep 5 && open http://localhost:3000 &",
+    "local-dev": "npx kill-port 3000 && npm run launch-web && next dev",
+    "dev": "npx kill-port 3000 && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@google/generative-ai": "^0.2.1",
+    "@langchain/community": "^0.0.35",
+    "@langchain/core": "^0.1.43",
+    "@langchain/openai": "^0.0.17",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/joy": "^5.0.0-beta.29",
+    "@mui/material-nextjs": "^5.15.11",
+    "@mui/x-date-pickers": "^6.19.6",
+    "@mui/x-date-pickers-pro": "^6.19.6",
+    "@uiw/react-md-editor": "^4.0.3",
+    "dayjs": "^1.11.10",
+    "langchain": "^0.1.25",
+    "markdown-to-jsx": "^7.4.1",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "swiper": "^11.0.7",
+    "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  }
+}
