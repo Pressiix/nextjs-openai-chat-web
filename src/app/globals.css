@@ -1,0 +1,55 @@
+body {
+    margin: unset;
+}
+
+body > header > div {
+    max-width: unset !important;
+}
+
+.button-group-item {
+    padding: 16px 8px 8px 8px;
+}
+
+.current-funding-card {
+    border: 1px solid salmon;
+    background-color: #ffffff;
+}
+
+.blog-content-container {
+    background: #f7f8fb;
+}
+
+.donate-btn, .add-to-cart-btn {
+    background-color: #ee4d4e;
+    width: 90%;
+}
+
+.modal-btn {
+    border: 0;
+    box-shadow: none;
+    background-color: rgb(181, 181, 181)
+}
+
+.close-modal-btn {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    color: #000;
+}
+
+.form-page {
+    padding-left: 4% !important;
+    padding-right: 24% !important;
+}
+
+.chat-input-container > div {
+    height: 36px;
+}
+
+.ai-generate-btn {
+    background-color: rgb(238, 217, 215);
+    height: 20px;
+    padding: 14px 6px 12px 6px !important;
+    margin-right: 8px;
+    color: #a29090;
+}
