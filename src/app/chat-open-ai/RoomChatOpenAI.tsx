@@ -39,7 +39,7 @@ const RoomChatOpenAI = ({
   };
 
   const assistant = new OpenAIAssistantRunnable({
-    assistantId: "asst_OC5wYahYtJLh4VwzK3frXqv3",
+    assistantId: "asst_XXXXXXXXXXXXXXXXXXXXX",
     asAgent: true,
     clientOptions: {
       apiKey: process.env.OPENAI_API_KEY,
